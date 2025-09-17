@@ -21,6 +21,19 @@ The dataset chosen for this assignment is the **Iris dataset** (a classic multic
 - **Type:** Multiclass classification (3 classes).  
 
 ---
+##  Business Goals Achieved
+
+This repository demonstrates how MLOps practices can be applied to machine learning projects in a business setting:
+
+1. **Reproducibility** – Ensures all experiments can be rerun with the same results, reducing risks in production.
+2. **Model Comparison** – Provides objective evaluation of multiple models, helping businesses select the best solution.
+3. **Experiment Tracking** – MLflow logs make it easy to monitor progress, compare performance, and maintain transparency.
+4. **Model Registry** – Establishes a version-controlled hub for production-ready models, enabling smoother deployment.
+5. **Collaboration** – GitHub integration supports version control and teamwork across data science and engineering teams.
+
+By following these steps, organizations can save time, reduce errors, and streamline the path from research to deployment.
+
+---
 
 ##  Model Selection & Comparison
 Three machine learning models were trained and compared:
