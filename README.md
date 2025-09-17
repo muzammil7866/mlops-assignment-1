@@ -1,6 +1,6 @@
 # MLOps Assignment 1: Github Setup, Model Training & Comparison, MLflow Tracking & Logging, Monitoring & Model Registration, and Documentation
 
-## 📌 Objective
+##  Objective
 The purpose of this assignment is to gain hands-on experience with:
 1. Using GitHub for version control and collaboration.
 2. Building and training ML models for comparison.
@@ -15,14 +15,14 @@ By the end of this project:
 
 ---
 
-## 📊 Problem Statement & Dataset
+##  Problem Statement & Dataset
 The dataset chosen for this assignment is the **Iris dataset** (a classic multiclass classification dataset).  
 - **Task:** Predict the species of an iris flower (Setosa, Versicolor, Virginica) based on its features (sepal length, sepal width, petal length, petal width).  
 - **Type:** Multiclass classification (3 classes).  
 
 ---
 
-## 🤖 Model Selection & Comparison
+##  Model Selection & Comparison
 Three machine learning models were trained and compared:
 
 | Model                | Accuracy | Precision | Recall | F1-score |
@@ -31,11 +31,11 @@ Three machine learning models were trained and compared:
 | Random Forest         | 0.9     | 0.902      | 0.9   | 0.9     |
 | Support Vector Machine| 0.967     | 0.97      | 0.967   | 0.967     |
 
-👉 The **Support Vector Machine** performed the best with the highest accuracy and F1-score.
+ The **Support Vector Machine** performed the best with the highest accuracy and F1-score.
 
 ---
 
-## 📈 MLflow Tracking
+##  MLflow Tracking
 MLflow was used to track experiments:
 - **Parameters:** hyperparameters such as `n_estimators`, `kernel`, etc.
 - **Metrics:** accuracy, precision, recall, F1-score.
@@ -49,7 +49,7 @@ MLflow was used to track experiments:
 
 ---
 
-## 🔐 Model Registration
+##  Model Registration
 The best performing model (**Support Vector Machine**) was registered in the **MLflow Model Registry** with the name:
 
 ```
@@ -64,7 +64,7 @@ mlops_assignment_iris_best
 
 ---
 
-## ⚙️ Instructions to Reproduce
+##  Instructions to Reproduce
 
 ### 1. Clone the Repository
 ```cmd
@@ -94,7 +94,7 @@ python src/train.py
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 ```
 mlops-assignment-1/
 ├── data/                  # Dataset folder
@@ -112,7 +112,7 @@ mlops-assignment-1/
 
 ---
 
-## ✅ Deliverables
+##  Deliverables
 - Public GitHub repository with code and documentation.
 - README with:
   - Problem statement & dataset description.
@@ -123,7 +123,7 @@ mlops-assignment-1/
 
 ---
 
-## 📌 Evaluation Mapping
+##  Evaluation Mapping
 - GitHub Setup & Workflow: **20%**
 - Model Training & Comparison: **25%**
 - MLflow Tracking & Logging: **30%**
@@ -132,6 +132,6 @@ mlops-assignment-1/
 
 ---
 
-## 🙌 Acknowledgements
+##  Acknowledgements
 - Dataset: UCI Machine Learning Repository (Iris Dataset)
 - Libraries: scikit-learn, pandas, numpy, matplotlib, mlflow
